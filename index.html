@@ -1,20 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
 
-  
-<meta http-equiv="refresh" content="0; url=http://example.com/" />
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
 
-  
-<title>Page Title</title>
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #f0a500;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .project {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .project h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #f0a500;
+        }
+
+        .project p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .project a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f1f1f;
+            border-top: 2px solid #333;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <div class="container">
+        <div class="project">
+            <h2>E-commerce Website</h2>
+            <p>An advanced e-commerce platform with payment gateway integration, SEO-friendly design, and mobile responsiveness.</p>
+            <a href="https://kingsman.expoo.in/projects/ecom" target="_blank">View Website</a>
+        </div>
 
+        <div class="project">
+            <h2>Educational Consultancy Website</h2>
+            <p>A professional website designed for educational consultancy services, featuring an intuitive interface and responsive design.</p>
+            <a href="https://kingsman.expoo.in/projects/edu" target="_blank">View Website</a>
+        </div>
+
+        <div class="project">
+            <h2>Tour and Travel Website</h2>
+            <p>An engaging tour and travel website with user-friendly booking options and a sleek, mobile-friendly layout.</p>
+            <a href="https://kingsman.expoo.in/projects/travels" target="_blank">View Website</a>
+        </div>
+
+        <div class="project">
+            <h2>Makeup Artist Website</h2>
+            <p>A stunning portfolio website for a makeup artist, showcasing their work with beautiful visuals and client-friendly navigation.</p>
+            <a href="https://kingsman.expoo.in/projects/makup" target="_blank">View Website</a>
+        </div>
+
+        <!-- Add more projects here if needed -->
+    </div>
+
+    <footer>
+        <p>&copy; My Projects | Designed by NKN</p>
+    </footer>
 </body>
 </html>
+
 
 
 
